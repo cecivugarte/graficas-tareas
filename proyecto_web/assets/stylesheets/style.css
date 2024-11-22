@@ -1,0 +1,78 @@
+/* Diseño general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color:#000000;
+    margin: 0;
+    padding: 0;
+}
+header {
+    
+    background-color: hwb(56 11% 2%);
+    color: #d40000;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    font-size: 2em;
+    margin: 0;
+}
+.section-title {
+    color: #1575e9;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+p, li {
+    line-height: 1.6;
+}
+/* Contenedor para organizar la imagen y la información personal */
+.personal-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Alinea la imagen y el texto en la parte superior */
+    margin-top: 10px;
+}
+
+/* Asegura que el texto ocupe la mitad del ancho del contenedor */
+.info-text {
+    width: 70%;
+}
+/* Imagen y enlaces */
+.imagen {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin-left:  20px auto;
+}
+a {
+    color: #b27019;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Secciones */
+.personal-info, .contact-info, .education, .experience, .skills {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* Clases e ID */
+#contact-info {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+}
+.footer {
+    background-color: hwb(56 11% 2%);
+    color: #d40000;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+    margin-top: 30px;
+}
